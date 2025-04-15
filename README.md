@@ -1,39 +1,38 @@
 # Recursion Factorial Script (Beginner Edition) - April 2025
 
-> "Not production-grade. Just me learning Python recursion with some trial and error."  
+> "Not production-ready. Just me leveling up Python recursion with loops."  
 > — Sid.py
 
 ---
 
 ## 📌 About This Project
-A simple script to calculate the factorial of a number using recursion, built on 10 April 2025. It takes user input, handles basics, and reflects my beginner journey into algorithms.
+An updated script to calculate factorial using recursion, built in April 2025. It features a loop for multiple attempts, a 1-100 range, and user continuation, improving on my earlier version.
 
 ## Why I Built This
-- To master recursive function calls in Python.
-- To practice user input and basic error handling.
-- To tackle a classic math problem with code.
+- To implement a recursive factorial with a loop.
+- To practice user input, validation, and flow control.
+- To enhance interactivity in my coding journey.
 
 ---
 
 ## 🚀 What It Does
-- Asks for a number and computes its factorial (e.g., 5! = 120).
-- Returns 1 for 0! and 1!, multiplies `n * recursion(n-1)` otherwise.
-- Rejects negative numbers and non-integers with error messages.
+- Computes factorial (e.g., 5! = 120) recursively.
+- Accepts input between 1-100, loops until user quits or errors.
+- Rejects negatives, warns about >100, and asks "yes/no" to continue.
 
 ---
 
 ## 🧠 What I Learned
-- How recursion works with base cases (0! = 1, 1! = 1).
-- Using `try-except` to catch invalid inputs.
-- Adding simple input validation with `if` statements.
-- The limits of recursion (stack overflow risk).
+- Using `while True` for repeated input.
+- Adding user choice (yes/no) to control flow.
+- Managing recursion limits and error handling.
 
 ---
 
 ## 🔄 Updates
-- ✅ Created a recursive factorial function.
-- ✅ Added user input with `try-except` for non-integers.
-- ✅ Implemented negative number check.
+- ✅ Added a `while` loop for multiple attempts.
+- ✅ Implemented yes/no continuation prompt.
+- ✅ Maintained 1-100 range with overflow warning.
 
 ---
 
@@ -41,8 +40,11 @@ A simple script to calculate the factorial of a number using recursion, built on
 - [Sid.py] ([https://github.com/BscCanCode](https://github.com/BscCanCode))
 
 ## Development Notes
+- Updated April 2025, Built from YouTube learning.
 - Uses pure Python (no libraries).
+
+---
 
 ## NOTE
 - README crafted with AI chatbot assistance.
-- Kept raw to document my learning—plan to refine later.
+- Kept raw to track progress—plan to refine later.
